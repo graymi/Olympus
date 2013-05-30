@@ -335,3 +335,269 @@ Scene4 Load time: 12.3804
 Time to init render Manager: 78.2836
 Time to init with mesh + textures asset Manager: 0.0187656
 
+
+Scene0 Load time: 22.3483
+
+Scene1 Load time: 2.82189
+
+Scene2 Load time: 4.86783
+
+Scene3 Load time: 1.43408
+
+Scene4 Load time: 5.82141
+
+Time to init render Manager: 38.5915
+Time to init with mesh + textures asset Manager: 0.00284094
+
+
+Scene0 Load time: 13.1548
+
+Scene1 Load time: 2.15117
+
+Scene2 Load time: 2.09217
+
+Scene3 Load time: 1.37179
+
+Scene4 Load time: 3.6328
+
+Time to init render Manager: 23.6552
+Time to init with mesh + textures asset Manager: 0.000424349
+
+
+Scene0 Load time: 13.3515
+
+Scene1 Load time: 2.20325
+
+Scene2 Load time: 2.05363
+
+Scene3 Load time: 1.34473
+
+Scene4 Load time: 3.60534
+
+Time to init render Manager: 23.8218
+Time to init with mesh + textures asset Manager: 0.000415916
+
+
+Scene0 Load time: 13.1072
+
+Scene1 Load time: 2.14241
+
+Scene2 Load time: 2.0571
+
+Scene3 Load time: 1.37333
+
+Scene4 Load time: 3.66544
+
+Time to init render Manager: 23.6039
+Time to init with mesh + textures asset Manager: 0.00044001
+
+
+Scene0 Load time: 13.1534
+
+Scene1 Load time: 2.11691
+
+Scene2 Load time: 2.03064
+
+Scene3 Load time: 1.36879
+
+Scene4 Load time: 3.56041
+
+Time to init render Manager: 23.4755
+Time to init with mesh + textures asset Manager: 0.000420735
+
+
+Scene0 Load time: 13.1062
+
+Scene1 Load time: 2.16447
+
+Scene2 Load time: 2.02968
+
+Scene3 Load time: 1.37676
+
+Scene4 Load time: 3.55152
+
+Time to init render Manager: 23.4759
+Time to init with mesh + textures asset Manager: 0.000428264
+
+
+Scene0 Load time: 13.2663
+
+Scene1 Load time: 2.12742
+
+Scene2 Load time: 2.0527
+
+Scene3 Load time: 1.37776
+
+Scene4 Load time: 3.6346
+
+Time to init render Manager: 23.7257
+Time to init with mesh + textures asset Manager: 0.000430975
+
+
+Scene0 Load time: 13.172
+
+Scene1 Load time: 2.11105
+
+Scene2 Load time: 2.03482
+
+Scene3 Load time: 1.38893
+
+Scene4 Load time: 3.56237
+
+Time to init render Manager: 23.5121
+Time to init with mesh + textures asset Manager: 0.000424951
+
+
+Scene0 Load time: 13.2164
+
+Scene1 Load time: 2.11865
+
+Scene2 Load time: 2.04332
+
+Scene3 Load time: 1.33787
+
+Scene4 Load time: 3.55162
+
+Time to init render Manager: 23.5116
+Time to init with mesh + textures asset Manager: 0.000426758
+
+
+Scene0 Load time: 13.5358
+
+Scene1 Load time: 2.13823
+
+Scene2 Load time: 2.09433
+
+Scene3 Load time: 1.38846
+
+Scene4 Load time: 3.60719
+
+Time to init render Manager: 24.0316
+Time to init with mesh + textures asset Manager: 0.000581259
+
+
+Scene0 Load time: 13.401
+
+Scene1 Load time: 2.20495
+
+Scene2 Load time: 2.10352
+
+Scene3 Load time: 1.35764
+
+Scene4 Load time: 3.59414
+
+Time to init render Manager: 24.0052
+Time to init with mesh + textures asset Manager: 0.000394533
+
+
+Scene0 Load time: 13.2805
+
+Scene1 Load time: 2.17119
+
+Scene2 Load time: 2.04993
+
+Scene3 Load time: 1.37395
+
+Scene4 Load time: 3.6061
+
+Time to init render Manager: 23.8235
+Time to init with mesh + textures asset Manager: 0.000409592
+
+
+Scene0 Load time: 13.5765
+
+Scene1 Load time: 2.1684
+
+Scene2 Load time: 2.09393
+
+Scene3 Load time: 1.3945
+
+Scene4 Load time: 3.5775
+
+Time to init render Manager: 24.1553
+Time to init with mesh + textures asset Manager: 0.000417121
+
+
+Scene0 Load time: 13.498
+
+Scene1 Load time: 2.17411
+
+Scene2 Load time: 2.07507
+
+Scene3 Load time: 1.3956
+
+Scene4 Load time: 3.65368
+
+Time to init render Manager: 24.1282
+Time to init with mesh + textures asset Manager: 0.000410796
+
+
+Scene0 Load time: 13.1571
+
+Scene1 Load time: 2.11026
+
+Scene2 Load time: 2.04595
+
+Scene3 Load time: 1.36975
+
+Scene4 Load time: 3.55118
+
+Time to init render Manager: 23.5761
+Time to init with mesh + textures asset Manager: 0.000437299
+
+
+Scene0 Load time: 13.3202
+
+Scene1 Load time: 2.15766
+
+Scene2 Load time: 2.08775
+
+Scene3 Load time: 1.38056
+
+Scene4 Load time: 3.61971
+
+Time to init render Manager: 23.9073
+Time to init with mesh + textures asset Manager: 0.000416217
+
+
+Scene0 Load time: 13.099
+
+Scene1 Load time: 2.1178
+
+Scene2 Load time: 2.06329
+
+Scene3 Load time: 1.38282
+
+Scene4 Load time: 3.63342
+
+Time to init render Manager: 23.667
+Time to init with mesh + textures asset Manager: 0.000430674
+
+
+Scene0 Load time: 13.1765
+
+Scene1 Load time: 2.10058
+
+Scene2 Load time: 2.01482
+
+Scene3 Load time: 1.38302
+
+Scene4 Load time: 3.5663
+
+Time to init render Manager: 23.5331
+Time to init with mesh + textures asset Manager: 0.000428264
+
+
+Scene0 Load time: 13.3594
+
+Scene1 Load time: 2.16842
+
+Scene2 Load time: 2.12239
+
+Scene3 Load time: 1.38383
+
+Scene4 Load time: 3.59516
+
+Time to init render Manager: 23.8819
+Time to init with mesh + textures asset Manager: 0.000420434
+
