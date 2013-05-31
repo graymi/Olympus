@@ -1,13 +1,32 @@
-﻿Build started 5/29/2013 8:42:45 PM.
-     1>Project "C:\Users\Michael\Desktop\Git\graymi\Olympus\Olympus\Olympus.vcxproj" on node 2 (build target(s)).
+﻿Build started 5/30/2013 8:05:37 PM.
+     1>Project "C:\Users\Michael\Desktop\Git\Group\Olympus\Olympus\Olympus.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Checked\Olympus.unsuccessfulbuild".
+         Creating "Checked\Olympus.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         D:\Programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Checked\\" /Fd"Checked\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RenderManager.cpp
+         RenderManager.cpp
+         IMPORTANT NOTE: The FBX SDK API changed substantially. Please define FBXSDK_NEW_API in your project and fix compilation errors as instructed in fbxsdk_compatibility.h.
+     1>RenderManager.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(300): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(478): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(488): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(601): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(625): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(656): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(657): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(670): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(670): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(677): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(774): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(781): warning C4482: nonstandard extension used: enum 'CurrentScene' used in qualified name
+     1>RenderManager.cpp(797): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(801): warning C4018: '<' : signed/unsigned mismatch
+     1>RenderManager.cpp(820): warning C4018: '<' : signed/unsigned mismatch
        ResourceCompile:
          All outputs are up-to-date.
        Link:
-         D:\Programs\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\Olympus.exe" /NOLOGO d3d11.lib d3dx11d.lib d3dx10d.lib XInput.lib gdiplus.lib "fbxsdk-2013.3d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"Checked\Olympus.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\Olympus.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\Olympus.lib" /MACHINE:X86 Checked\OlympusIcon.res
+         D:\Programs\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.exe" /NOLOGO d3d11.lib d3dx11d.lib d3dx10d.lib XInput.lib gdiplus.lib "fbxsdk-2013.3d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"Checked\Olympus.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.lib" /MACHINE:X86 Checked\OlympusIcon.res
          Checked\apex.obj
          Checked\ApexCloth.obj
          Checked\ApexDestructable.obj
@@ -38,42 +57,43 @@
          Checked\ZeusRenderResources.obj
          Checked\ZeusRenderResourceManager.obj
          Checked\ZeusResourceCallback.obj
-     1>PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PxTaskCHECKED.lib(CudaWrapper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PxTaskCHECKED.lib(CudaWrapper.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-     1>PxToolkitDEBUG.lib(PxTkStream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PxToolkitDEBUG.lib(PxTkStream.obj)' or at 'C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\vc100.pdb'; linking object as if no debug info
-         Olympus.vcxproj -> C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\Olympus.exe
+         LINK : C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.exe not found or not built by the last incremental link; performing full link
+     1>PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PxTaskCHECKED.lib(CudaWrapper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PxTaskCHECKED.lib(CudaWrapper.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+     1>PxToolkitDEBUG.lib(PxTkStream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PxToolkitDEBUG.lib(PxTkStream.obj)' or at 'C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\vc100.pdb'; linking object as if no debug info
+         Olympus.vcxproj -> C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Michael\Desktop\Git\graymi\Olympus\Checked\Olympus.exe;#1" /manifest Checked\Olympus.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Michael\Desktop\Git\Group\Olympus\Checked\Olympus.exe;#1" /manifest Checked\Olympus.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Checked\Olympus.unsuccessfulbuild".
          Touching "Checked\Olympus.lastbuildstate".
-     1>Done Building Project "C:\Users\Michael\Desktop\Git\graymi\Olympus\Olympus\Olympus.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Michael\Desktop\Git\Group\Olympus\Olympus\Olympus.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.61
+Time Elapsed 00:00:04.03
